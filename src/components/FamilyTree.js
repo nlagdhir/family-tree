@@ -7,12 +7,6 @@ export const FamilyTree = () => {
 
   const nodeSize = isMobile ? { x: 150, y: 100 } : { x: 300, y: 200 };
 
-  // const foreignObjectProps = {
-  //   width: nodeSize.x,
-  //   height: nodeSize.y,
-  //   x: -150,
-  //   y: 25,
-  // };
   const foreignObjectProps = {
     width: nodeSize.x,
     height: nodeSize.y,
